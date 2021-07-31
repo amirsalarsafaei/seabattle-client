@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "Krabby Patty";
+    src: url('fonts/KrabbyPatty.ttf');
+}
+
+.root {
+    -fx-font-size: 20;
+    -fx-font-family:  "Krabby Patty";
+    -fx-background-image:  url('images/sponge-pattern.png');
+}
+
+.label {
+    -fx-font-size: 30;
+    -fx-text-fill: #584300;
+}
+
+.scroll-pane{
+    -fx-background-color:transparent;
+}
+.scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
+.text-field {
+    -fx-background-color: #ffb700;
+    -fx-text-fill: #ffffff;
+    -fx-background-radius: 20px;
+}
+
+.password-field {
+    -fx-background-color: #ffb700;
+    -fx-text-fill: #ffffff;
+    -fx-background-radius: 20px;
+    -fx-font-family: "Comic Sans MS";
+}
+
+#error-label {
+    -fx-text-fill: #ff0000;
+    -fx-font-size: 16px;
+}
+
+.button {
+    -fx-background-color: #ffb700;
+    -fx-text-fill: #ffffff;
+    -fx-background-radius: 20px;
+}
+
+
+#live-game-box {
+    -fx-background-radius: 20px;
+    -fx-background-color: #ffb700;
+}
